@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    min-height: 70vh;
+    display: grid;
+    place-items: center;
+
+
+}
+
+header {
+    margin-right: -14%;
+}
+
+header .nav {
+    display: inline;
+    gap: 50px;
+    margin-left: 71px;
+    float: left;
+    margin-top: 9%;
+}
+
+header .nav a {
+    text-decoration: none;
+    font-size: 15x;
+    color: black;
+}
+
+header .nav i {
+    padding-right: 14px;
+}
+
+
+header a:hover,
+header i:hover {
+    color: #D1884F;
+
+}
+
+.row {
+    width: 80%;
+    max-width: 1170px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px 30px;
+    margin-top: -11%;
+}
+
+.row .left {
+    overflow: hidden;
+}
+
+.row .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.row .right {
+    display: flex;
+    align-items: center;
+}
+
+.row .left .welcome {
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #47bcd9;
+    font-size: 16px;
+
+}
+
+.row .left .class {
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    color: #008AAA;
+    margin-bottom: 22px;
+
+}
+
+.row .left .class span {
+    color: #D1884F;
+}
+
+.row .left .text {
+    font-size: 13px;
+    color: black;
+    width: 397px;
+    font-weight: 600;
+
+    margin-bottom: 30px;
+}
+
+.row .left .text span a {
+    text-decoration: none;
+    color: #3BBADB;
+
+}
+
+.row .left .btn {
+    display: flex;
+    gap: 27px;
+}
+
+.row .left .btn1 {
+    background-color: #028aa9;
+    box-shadow: 2px 1px #3BBADB;
+    width: 151px;
+    text-align: center;
+    height: 33px;
+
+    line-height: 33px;
+    font-weight: 600;
+}
+
+.row .left .btn1 a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.row .left .btn1:hover {
+    background-color: transparent;
+    border: 1px solid #008AAA;
+    box-shadow: 1px 1px 6px #3BBADB;
+    color: #008AAA;
+}
+
+.row .left .btn1:hover a {
+    color: #008AAA;
+
+
+}
+
+.row .left .btn2 {
+    background-color: transparent;
+    border: 1px solid #008AAA;
+    font-size: 5px;
+    box-shadow: 1px 1px 6px #3BBADB;
+    width: 170px;
+    text-align: center;
+    height: 33px;
+    line-height: 33px;
+    font-weight: 600;
+}
+
+.row .left .btn2 a {
+    color: #008AAA;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.row .left .btn2:hover {
+    background-color: #008AAA;
+
+}
+
+.row .left .btn2:hover a {
+    color: white;
+}
+
+@media(min-width:800px) {
+    .row {
+        display: flex;
+  
+        margin-top: 70px;
+    }
+
+    .row .left .class {
+        font-size: 40px;
+    }
+
+    .row .right img {
+        margin-left: 50px;
+    }
+
+    header {
+        margin-right: -14%;
+    }
+}
+
+@media (min-width:551) and (max-width:px) {
+    .row {
+        margin-top: 50px;
+    }
+
+    .row .left .class {
+        font-size: 35px;
+    }
+
+    .row .right img {
+        margin-top: 30px;
+    }
+
+    header {
+        margin-right: -20%;
+        display: contents;
+    }
+
+    header .nav a {
+        font-size: 14px;
+    }
+
+    header .nav {
+        margin-left: 22px;
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:550px) {
+    .row {
+        margin-top: 50px;
+    }
+
+    .row .left .class {
+        font-size: 35px;
+    }
+
+    .row .right img {
+        margin-top: 30px;
+    }
+
+    header {
+        margin-right: -20%;
+        display: contents;
+    }
+
+    header .nav a {
+        font-size: 14px;
+    }
+
+    header .nav {
+        margin-left: 22px;
+        margin-top: 50px;
+    }
+}
+
+@media(min-width:1300px) {
+    .row {
+        display: flex;
+        gap: 250px;
+    }
+
+    .row .right img {
+        width: 109%;
+    }
+}
+@media(max-width:799px) {
+.row {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.row .left .class {
+    font-size: 35px;
+}
+
+.row .right img {
+    margin-top: 30px;
+}
+
+header {
+    margin-right: -20%;
+    display: contents;
+}
+
+header .nav a {
+    font-size: 14px;
+}
+
+header .nav {
+    margin-left: 22px;
+    margin-top: 50px;
+}
+}
